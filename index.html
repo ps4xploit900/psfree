@@ -787,16 +787,7 @@ input:checked + .slider:before {
 </style>
 </head>
 
-<script>
-function poc() {
-	StartTimer();
-	setTimeout(run_psfree,1500);
-}
 
-function CalcTime(dur){hrs=Math.floor(dur/1000/60/60);min=Math.floor(dur/1000/60-hrs*60);sec=Math.floor(dur/1000-min*60);mil=dur.toString().slice(-3);if (min!=0){ShowDuration=" - WK Exploited In : "+min+" minute"+(min==1?"":"s")+", "+sec+" second"+(sec==1?"":"s");}else {ShowDuration=" - WK Exploited In: "+sec+" second"+(sec==1?"":"s");}}
-function StartTimer(){StartTime=Date.now();}
-function EndTimer(){EndTime=Date.now();CalcTime(EndTime=Date.now()-StartTime);document.title+=ShowDuration;}
-</script>
 <script  src="module/utils.js"></script>
 <script  src="module/constants.js"></script>
 <script  src="module/int64.js"></script>
@@ -812,7 +803,7 @@ function EndTimer(){EndTime=Date.now();CalcTime(EndTime=Date.now()-StartTime);do
 <body onload="setTimeout(function() { load_exploit(); }, 1000); setTimeout(run_psfree, 6000); load()">
 
 
-<script defer src="webkit_psfree.js"></script>
+<script async  src="webkit_psfree.js"></script>
 
 
 
