@@ -1,5 +1,5 @@
 CACHE MANIFEST 
-
+Cache.manifest
 alert.mjs 
 cache.html 
 exploit.js 
@@ -25,11 +25,11 @@ Style.css
 title-goldhen.png 
 webkit_psfree.js 
 constants.js 
-module\int64.js 
-module\mem.js 
-module\memtools.js 
-module\rw.js 
-module\utils.js 
+module/int64.js 
+module/mem.js 
+module/memtools.js 
+module/rw.js 
+module/utils.js 
  
 NETWORK: 
 * 
