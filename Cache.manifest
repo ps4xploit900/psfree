@@ -24,7 +24,7 @@ rop.js
 Style.css 
 title-goldhen.png 
 webkit_psfree.js 
-constants.js 
+module/constants.js 
 module/int64.js 
 module/mem.js 
 module/memtools.js 
